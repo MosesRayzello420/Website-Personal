@@ -1,0 +1,63 @@
+@keyframes animasi {
+    100% {
+        background-position: 25% 50%;
+       
+    }
+}
+
+
+
+
+
+body {
+    background-image: url(flat-mountains.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: animasi 1s infinite alternate ease-in;
+    background-attachment: fixed;
+}
+
+.box{
+    background-color: white;
+    width: 48%;
+    height: 100%;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.button{
+    background-color:#0D92F4;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.Paragraph{
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.image-box{
+    background-image: url("jared-rice-O6DUoIl6NWA-unsplash.jpg");
+    height: 180px;
+    background-size: cover;
+    border-radius:25px 25px 0px 0px;
+}
+
+.text-box{
+    padding: 8px 30px 30px 30px;
+}
+
+.footer{
+    background-color: #0D92F4;
+    height: 50px;
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+    padding: 20px;
+}
+
